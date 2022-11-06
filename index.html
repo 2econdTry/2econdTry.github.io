@@ -16,11 +16,43 @@ div {
 	border-style: solid hidden solid hidden;
 	border-color:#000000;
 }
-.qauthor {
+.qauthor{
 	color: #559977;
 }
+.topbar{
+	position: sticky;
+	background-color: #559977;
+	margin: none;
+	width: 100%;
+	color: #000000;
+	text-align: center;
+	cursor: default;
+}
+button.toplinks {
+	border: hidden;
+	font-family: "Bahnschrift", sans-serif;
+	height: 30px;
+	background-color: #559977;
+	transition-duration: 0.3s;
+}
+button.toplinks:hover {
+	background-color: #77dd99;
+	cursor: pointer;
+}
+a.qauthor {
+	color: #559977;
+	text-decoration: none;
+}
 </style>
-<h1><b><u>This is the test page.</u></b></h1>
+<div class="topbar">
+<h1><b>Welcome to my website I guess</b></h1>
+<p>Links:
+<button onclick="location.href='https://2econdtry.github.io/the-one-with-the-page'" type="button" class="toplinks">That one page</button>
+ /// 
+<button onclick="location.href='https://www.youtube.com/@2econdtry'" type="button" class="toplinks">My Youtube Channel</button>
+ </p>
+</div>
+
 <p>Hello.</p>
 <div>
 <h2><u>Quotes:</u></h2>
@@ -29,10 +61,10 @@ div {
 <p>"Is this going to be my quote?"</p>
 <p class="qauthor"><i> - Mr. Jacob "OwnEagle"</i></p>
 <p>"Yes."</p>
-<p class="qauthor"><i> - Me "2econdTry"</i></p>
+<p class="qauthor"><i> - Me "<a href="https://2econdtry.github.io/hes-coming" class="qauthor">2econdTry</a>"</i></p>
 <p>"I don't want to be quoted; I want to remain anonymous."</p>
 <p class="qauthor"><i> - Mr. John "Meep" Doe (Wishes to remain anonymous)</i></p>
-<p>"Mmm... Iuno."</p>
+<p>"Mmm... I uno."</p>
 <p class="qauthor"><i> - Mr. Jacob Gappleseed</i></p>
 </div>
 </html>
